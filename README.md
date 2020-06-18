@@ -31,7 +31,7 @@ You start the quiz by following the steps given below:
 - Page displays the time remaining as the score for the user. If the score is more than 0, then user is prompted to enter his/her initials and then both fields are stored in local storage.
 - Highest score can be viewed by clicking on the `High Score` button in the navigation bar.
 
-My Task list for developing this password generator:
+My Task list for developing this quiz challenge are as follows:
 
 [x] Building website
 
