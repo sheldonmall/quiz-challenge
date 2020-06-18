@@ -2,7 +2,7 @@
 
 ## Website URL
 
-My code quiz website can be found at [My Quiz Challenge] (https://sheldonmall.github.io/quiz-challenge/). 
+My code quiz website can be found at [My Quiz Challenge](https://sheldonmall.github.io/quiz-challenge/). 
 
 ## Installation
 
