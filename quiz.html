@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript"></script>
+    <!-- I am also bringing in style stylesheet here-->    
+    <link rel="stylesheet" href="style.css" />
+    <title>My Quiz</title>
+  </head>
+  <body>
+    <!-- This is my navbar.
+    Clicking on QUIZ CHALLENGE in the navbar will always take us to the Home page. -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-g" style="background: rgb(195, 218, 238);">
+      <a class="navbar-brand" style="font-size: 1.5rem;background-color: rgb(78, 197, 191) ;"href="index.html">Quiz Challenge</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Main Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">High Score </a>
+          </li>       
+          <li class="nav-item active">
+            <button id="start-quiz" onclick="setTime()" style="background-color: rgb(230, 205, 172);" href="">Start Quiz </button>
+            <!-- <a class="nav-link start-quiz" style="background-color: rgb(230, 205, 172);" href="">Start Quiz </a> -->
+          </li>              
+        </ul>          
+      </div>
+    </nav>    
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">     
+          <div class="card">
+            <div class="timer" style="font-style: regular; font-weight: bold;text-align:center">Time Remaining: 
+              <div id="main" style="font-style: regular; font-weight: bold;">0
+              </div>            
+            </div>  
+          </div>          
+        </div>
+      </div>
+      <!-- </div> -->
+      <div class="row">      
+        <div class="col-lg-12"style="margin-top: 1rem;">            
+          <div id="ques-para"></div><br>        
+          <p>Your choices are given below. Please click on a choice to indicate your answer: </p>
+          <div id="choice-para"></div></br>   
+          <div id="answer"></div>       
+        </div>
+      </div>        
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- This is the bar at the bottom. -->
+          <div class="card">
+            <div class="card-body">
+              <div class="text-center">
+                  <p>Remember to complete this quiz in the assigned time. <br>Time remaining will reduce by 15 secs for every incorrect answer. <br>Time remaining at the end of the quiz will be your final score.</p>                  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      
+   
+    <script src="./script.js"></script>
+  </body>
+</html>
